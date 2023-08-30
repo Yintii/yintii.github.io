@@ -1,0 +1,8 @@
+- name: Home
+  link: '/'
+- name: Blog
+  link: '/blog.html'
+- name: Projects
+  link: '/projects.html'
+- name: CodePen
+  link: 'https://codepen.io/Yinti'

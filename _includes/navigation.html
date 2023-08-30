@@ -1,0 +1,25 @@
+<nav>
+  <div id="nav-wrap">
+  <div id="masthead">
+    <img src="good_img.png" />
+    <div>
+      <div id="summary">
+        <h1>Kele Heart</h1>
+        <span>Web Developer<br />Wordpress / Rails / React</span>
+      </div>
+      <div>
+        <a href="mailto:kele@kelehart.com">Email me</a>
+      </div>
+    </div>
+  </div>
+  <ul>
+  {% for item in site.data.navigation %}
+  <li>
+     <a href="{{item.link}}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{item.name}}
+    </a>
+  </li>
+  {% endfor %}
+  </ul>
+  </div
+</nav>

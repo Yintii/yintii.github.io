@@ -1,0 +1,15 @@
+---
+title: {{ page.title }}
+layout: default
+---
+
+
+<p>
+  {{ page.date | date_to_string }}
+  {% if author %}
+    - <a href="{{author.url}}">{{author.name}}</a>
+  {% endif %}
+</p>
+
+
+{{ content }}

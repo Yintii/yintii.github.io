@@ -1,0 +1,28 @@
+- name: Yintii
+  link: 'https://yintii.com'
+  description: 'Inspired by TinyUrl, Yintii is a URL shortener so you can provide your friends, clients, and tweets with a sleek and short url. Built with Ruby on Rails.'
+  image_path: '/assets/images/yintii.png'
+  github_link: 'https://github.com/Yintii/UrlShortener'
+- name: Fang Gang
+  link: 'https://fang-gang-new-site.vercel.app/'
+  description: 'A website for FangGang, a Web3 brand and NFT collection on the Ethereum blockchain.'
+  image_path: '/assets/images/fanggang.png'
+  github_link: 'https://github.com/Yintii/FangGangNewSite'
+- name: Poetry By Robots
+  link: 'https://www.poetrybyrobots.com/'
+  description: "Poetry By Robots is a NFT collection on the Ethereum block chain. Utilizing GPT-3 and
+    DALLE, I created a collection of combination poems and paintings. They are still available today but the roadmap is canceled."
+  image_path: '/assets/images/pbr.png'
+  github_link: 'https://github.com/Yintii/MintingWebsite'
+  etherscan_link: 'https://etherscan.io/address/0x9ce01fa85b1e326ca8ec5ade69de0942109e37f8'
+- name: React Tug of War (Twitch Chat Game)
+  link: 'https://tug-of-war-react.vercel.app/'
+  description: "This is a tug of war game you can play on Twitch.tv - it is hooked up to the streamers chat feed, and viewers can say 'right' or 'r' and 'left' or 'l' to pull the flag a certain way."
+  image_path: '/assets/images/tow.png'
+  github_link: 'https://github.com/Yintii/tug-of-war-react'
+- name: LilDegens Minting page and Smart Contract
+  link: 'https://mint.lildegens.com/'
+  description: "LilDegens is an NFT project on the Ethereum Blockchain. This website serves as the main miniting page. I also developed the smart contract for the collection."
+  image_path: "/assets/images/lildegens.png"
+  github_link: "https://github.com/Yintii/LilDegensMintPage"
+  etherscan_link: "https://etherscan.io/address/0x1a0FF5B6e1cAc6D58f8e8241d870E022B2fdB9D4"
