@@ -9,6 +9,11 @@ title: Projects
     <div class="project">
       <img src="{{project.image_path}}" alt="{{project.name}}-image" />
       <h2>{{ project.name }}</h2>
+      <div class="tags">
+      {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+      </div>
       <p>{{ project.description }}</p>
       <div class="links">
       <a href="{{ project.link }}">Visit Website</a>
