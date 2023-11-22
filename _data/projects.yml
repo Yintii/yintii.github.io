@@ -1,9 +1,8 @@
-- name: Taxjiji
-  link: 'https://taxjiji.com'
-  tags: ["Ruby on Rails", "Ethereum", "Web3"]
-  description: "Taxiji is a tax witholding tool for cryptocurrency traders. It allows you to connect your wallet and automatically calculate and store funds for your taxes on transactions made with your wallet."
-  image_path: '/assets/images/taxiji.png'
-  github_link: '#'
+- name: Display Calculator
+  link: 'https://display-calculator.vercel.app/'
+  tags: ["React"]
+  description: "A visualization and sales tool for a display company. This is a calculator that allows you to visualize a display and estimate dimensions before ordering."
+  image_path: '/assets/images/display.png'
 
 - name: Yintii
   link: 'https://yintii.com'

@@ -17,7 +17,9 @@ title: Projects
       <p>{{ project.description }}</p>
       <div class="links">
       <a href="{{ project.link }}">Visit Website</a>
-      <a href="{{ project.github_link }}">View on Github</a>
+      {% if project.github_link %}
+        <a href="{{ project.github_link }}">View on Github</a>
+      {% endif %}
       {% if project.etherscan_link %}
         <a href="{{ project.etherscan_link }}">View on Etherscan</a>
       {% endif %}
