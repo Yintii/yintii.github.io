@@ -54,7 +54,7 @@ The page we need is relatively simple. You can view it below and then I'll expla
 
 Very simply we have a headline with a span, and a form that is being generated in a rails way and some embedded ruby. Then we have more embedded ruby checking if there is a short_link, and if there is, it shows the shortlink with a convienent copy button. The script tags just hold the JavaScript for the click-copy function. Combined with a little css, you get the page you see [here](https://yintii.com/).
 
-### The Contoller
+### The Controller
 
 The controller will be simple. We'll have a home action that will simply check if the incoming request is a post request or a get request. This will all be handled on the front page of our website, as we really only need the one page. 
 

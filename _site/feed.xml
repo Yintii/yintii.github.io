@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-21T19:30:06-08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Building A Tinyurl Clone</title><link href="http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone.html" rel="alternate" type="text/html" title="Building A Tinyurl Clone" /><published>2023-08-26T00:00:00-07:00</published><updated>2023-08-26T00:00:00-07:00</updated><id>http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone</id><content type="html" xml:base="http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone.html"><![CDATA[<h1 id="building-a-tinyurl-clone">Building a TinyUrl clone</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-21T21:50:47-08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Building A Tinyurl Clone</title><link href="http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone.html" rel="alternate" type="text/html" title="Building A Tinyurl Clone" /><published>2023-08-26T00:00:00-07:00</published><updated>2023-08-26T00:00:00-07:00</updated><id>http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone</id><content type="html" xml:base="http://localhost:4000/2023/08/26/Building-a-TinyUrl-clone.html"><![CDATA[<h1 id="building-a-tinyurl-clone">Building a TinyUrl clone</h1>
 
 <p>I recently built out a url shortener that was meant to serve as a test of my technical sophistication. I wanted to see if I could build out a service I’ve seen before, but never took the time to understand how it worked.</p>
 
@@ -49,7 +49,7 @@
 
 <p>Very simply we have a headline with a span, and a form that is being generated in a rails way and some embedded ruby. Then we have more embedded ruby checking if there is a short_link, and if there is, it shows the shortlink with a convienent copy button. The script tags just hold the JavaScript for the click-copy function. Combined with a little css, you get the page you see <a href="https://yintii.com/">here</a>.</p>
 
-<h3 id="the-contoller">The Contoller</h3>
+<h3 id="the-controller">The Controller</h3>
 
 <p>The controller will be simple. We’ll have a home action that will simply check if the incoming request is a post request or a get request. This will all be handled on the front page of our website, as we really only need the one page.</p>
 
