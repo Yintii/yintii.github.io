@@ -1,5 +1,5 @@
 - name: Heart Vending
-  description: My vending machine business! This is a wordpress website I mange for that.
+  description: My vending machine business! This is a wordpress website I manage for that.
   url: https://heartvending.com
   image: '/assets/images/heartvending.png'
 
@@ -28,7 +28,7 @@
   image: '/assets/images/tugowar.png'
 
 - name: Lil Degens
-  description: Lil Degens was a NFT project I did the contact and mint page for. This was integrated with google cloud to retrieve more data from users to further customize their NFT.
+  description: Lil Degens was a NFT project I did the contract and mint page for. This was integrated with google cloud to retrieve more data from users to further customize their NFT.
   url: https://lil-degens-mint-page.vercel.app/
   github: https://github.com/Yintii/MintWithGenderSelect
   etherscan: https://etherscan.io/address/0x1a0FF5B6e1cAc6D58f8e8241d870E022B2fdB9D4
