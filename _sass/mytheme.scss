@@ -36,12 +36,25 @@ main.page-content{
   margin: 5rem 0;
 }
 
-.card-body{
-  .btn{
-    margin: 0.5rem 0;
+
+.card{
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  img{
+    flex:1;
+  }
+  .card-body{
+     flex:1;
+     display: flex;
+     justify-content: flex-end;
+     flex-flow: column nowrap;
+  
+    .btn{
+      margin: 0.5rem 0;
+    }
   }
 }
-
 .post-list li{
   margin: 1rem;
   display: flex;
