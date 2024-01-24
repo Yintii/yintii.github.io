@@ -11,8 +11,12 @@ permalink: /projects/
       <div class="card-body">
         <h5 class="card-title">{{ project.name }}</h5>
         <p class="card-text">{{ project.description }}</p>
-        <a href="{{ project.url }}" class="btn btn-primary">View Project</a>
-        
+        {% if project.url %}
+          <a href="{{ project.url }}" class="btn btn-primary">View Project</a>
+        {% endif %} 
+        {% if project.etherscan %}
+          <a href="{{ project.etherscan }}" class="btn btn-primary">View Contract</a>
+        {% endif %}
         {% if project.github %}
           <a href="{{ project.github }}" class="btn btn-primary">View Code</a>
         {% endif %}
