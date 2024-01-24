@@ -1,0 +1,77 @@
+// Needed because Gruvbox colors aren't optimized for legibility.
+$min-contrast-ratio: 2;
+
+$white:    #efeff0 !default; // 229 fg0
+$gray-100: #e8ecf1 !default; // 223 fg1
+$gray-200: #d5c4a1 !default; // 250 fg2
+$gray-300: #bdae93 !default; // 248 fg3
+$gray-400: #a89984 !default; // 246 fg4
+$gray-500: #928374 !default; // 245 gray
+$gray-600: #7c6f64 !default; // 243 bg4
+$gray-700: #665c54 !default; // 241 bg3
+$gray-800: #504945 !default; // 239 bg2
+$gray-900: #3c3836 !default; // 237 bg1
+$black:    #282828 !default; // 235 bg0
+
+$blue:    #458588 !default; // 66 blue
+$indigo:  #b16286 !default; // 132 purple
+$purple:  #d3869b !default; // 175 purple
+$pink:    #fb4934 !default; // 167 red
+$red:     #cc241d !default; // 124 red
+$orange:  #d65d0e !default; // 166 orange
+$yellow:  #fabd2f !default; // 214 yellow
+$green:   #98971a !default; // 106 green
+$teal:    #b8bb26 !default; // 142 green
+$cyan:    #83a598 !default; // 109 blue
+
+@import "bootstrap/bootstrap";
+
+pre{
+  background-color:black;
+  color: lime;
+  padding: 1rem;
+}
+
+main.page-content{
+  margin: 5rem 0;
+}
+
+.post-list li{
+  margin: 1rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.post-list li h3{
+  order: 1;
+}
+
+.post-list li .post-meta{
+  order: 2;
+}
+
+.post-content img{
+  max-width: 70%;
+  display:flex;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.svg-icon{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #828282;
+  vertical-align: text-top;
+} 
+
+
+ 
+#projects{
+  display: flex;
+  flex-flow: row wrap;
+  .card{
+    margin: 1rem auto;
+  }
+}
+

@@ -1,0 +1,29 @@
+- name: Heart Vending
+  description: My vending machine business! This is a wordpress website I mange for that.
+  image: '/assets/images/heartvending.png'
+
+- name: Yintii
+  description: URL shortener project built with Ruby on Rails
+  url: https://yintii.com
+  github: https://github.com/Yintii/UrlShortener
+  image: '/assets/images/yintii.png/'
+
+- name: Display Calculator
+  description: A visual calculator that works to scale for a clients' modular display product.
+  url: https://yintii-example.vercel.app/
+  github: https://github.com/Yintii/DisplayTool
+  image: '/assets/images/visualizer.png'
+
+- name: FangGang Brand Website
+  description: A version of the FangGang website after rebrand.
+  url: https://fang-gang-new-site.vercel.app/
+  github: https://github.com/Yintii/FangGangNewSite
+  image: '/assets/images/fanggang.png'
+
+- name: Tug o' War
+  description: This is a tug of war game built with React.js and TMI.js. TMI.js is a library made to interact with Twitch.tv chat, so that chatters can interact with the stream.
+  url: https://tug-of-war-react.vercel.app/
+  github: https://github.com/Yintii/tug-of-war-react
+  image: '/assets/images/tugowar.png'
+
+

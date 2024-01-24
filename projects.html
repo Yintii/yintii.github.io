@@ -1,0 +1,22 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<div id='projects'>
+  {% for project in site.data.projects %}
+    <div class="card" style="width: 18rem;">
+      <img src="{{ project.image }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ project.name }}</h5>
+        <p class="card-text">{{ project.description }}</p>
+        <a href="{{ project.url }}" class="btn btn-primary">View Project</a>
+        
+        {% if project.github %}
+          <a href="{{ project.github }}" class="btn btn-primary">View Code</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
