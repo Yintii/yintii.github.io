@@ -75,3 +75,25 @@ main.page-content{
   }
 }
 
+
+@media (max-width: 768px) {
+  .footer-col{
+    &:nth-child(1){
+      order:2;
+    }
+    &:nth-child(2){
+      order:3;
+    }
+    &:nth-child(3){
+      order:1;
+    }
+  }
+  .social-media-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    span.username{
+      display: none;
+    }
+  }
+}
