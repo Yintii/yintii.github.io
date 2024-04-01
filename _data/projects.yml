@@ -1,4 +1,9 @@
-- name: Heart Vending
+- name: Squires Greens Website
+  description: A website for a local business that sells microgreens. This website was built with Wordpress.
+  url: https://squiresgreens.com
+  image: '/assets/images/squiresgreen.png'
+
+- name: Heart Vending Websites
   description: My vending machine business! This is a wordpress website I manage for that.
   url: https://heartvending.com
   image: '/assets/images/heartvending.png'
