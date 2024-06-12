@@ -56,9 +56,3 @@
   github: https://github.com/Yintii/custom_file_uploader
   image: '/assets/images/wmark.png'
 
-- name: Poetry by Robots
-  description: Poetry By Robots is a AI generative collection utilizing two machine learning models for text and images. Poetry and Art is generated from the perspective of post-apocalyptic automatons who've survived until worlds end.
-  url: https://www.poetrybyrobots.com/
-  github: https://github.com/Yintii/MintingWebsite
-  etherscan: https://etherscan.io/address/0x9ce01fa85b1e326ca8ec5ade69de0942109e37f8
-  image: '/assets/images/pbr.png'
