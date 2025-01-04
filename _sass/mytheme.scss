@@ -47,6 +47,30 @@ header{
   .navbar-brand, .nav-link{
     color: white;
   }
+  .navbar-toggler{
+    display: inline-flex;
+    border: 1px solid white;
+    .custom-navbar-toggler-icon{
+      background-image: url('../images/header-images/white-nav-toggler.svg');
+      height:25px;
+      width: 25px;
+    }
+  }
+ 
+  @media (max-width: 992px){
+    div#navbarSupportedContent {
+      background-color: #3d0099;
+      position: absolute;
+      top: 67px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      text-align: center;
+    }
+  }
+  
 }
 
 pre{
