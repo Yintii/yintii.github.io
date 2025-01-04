@@ -1,0 +1,21 @@
+#title-card{
+  margin-top:2rem;
+  *{ 
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+#tech-block{
+  *{
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px){
+  #tech-block{
+    *{
+      text-align: unset;
+    }
+  }
+}

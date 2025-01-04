@@ -1,0 +1,37 @@
+- alt: 'Typescript'
+  src: '/assets/images/logos/ts-logo.png'
+
+- alt: 'Node JS'
+  src: '/assets/images/logos/nodejs-icon.svg'
+
+- alt: 'Solidity'
+  src: '/assets/images/logos/Solidity.png'
+
+- alt: 'Rails Framework'
+  src: '/assets/images/logos/rails-logo.png'
+
+- alt: 'Google Cloud Services'
+  src: '/assets/images/logos/google-cloud.png'
+
+- alt: 'Ruby'
+  src: '/assets/images/logos/ruby-logo.png'
+
+- alt: 'Wordpress CMS'
+  src: '/assets/images/logos/wordpress-logo.png'
+
+- alt: 'React js'
+  src: '/assets/images/logos/react-logo.png'
+
+- alt: 'MySQL'
+  src: '/assets/images/logos/mysql-logo.png'
+
+- alt: 'Bash'
+  src: '/assets/images/logos/bash-logo.png'
+
+- alt: 'Jekyllrb'
+  src: '/assets/images/logos/jekyll-logo.png'
+
+- alt: 'PostgreSQL'
+  src: '/assets/images/logos/postgresql-logo.png'
+
+

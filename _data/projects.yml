@@ -2,57 +2,57 @@
   description: Taxolotl is a tax application that is designed for crypto users to be able to easily and automatically withold taxes on their transactions. This project is currently in development.
   url: https://taxolotl.xyz
   github: https://github.com/Yintii/Taxiji
-  image: '/assets/images/taxolotl.png'
+  image: '/assets/images/projects/taxolotl.png'
 
 - name: Squires Greens Website
   description: A website for a local business that sells microgreens. This website was built with Wordpress.
   url: https://squiresgreens.com
-  image: '/assets/images/squiresgreen.png'
+  image: '/assets/images/projects/squiresgreen.png'
 
 - name: Heart Vending Websites
   description: My vending machine business! This is a wordpress website I manage for that.
   url: https://heartvending.com
-  image: '/assets/images/heartvending.png'
+  image: '/assets/images/projects/heartvending.png'
 
 - name: Yintii
   description: URL shortener project built with Ruby on Rails
   url: https://yintii.com
   github: https://github.com/Yintii/UrlShortener
-  image: '/assets/images/yintii.png'
+  image: '/assets/images/projects/yintii.png'
 
 - name: Display Calculator
   description: A visual calculator that works to scale for a clients' modular display product.
   url: https://yintii-example.vercel.app/
   github: https://github.com/Yintii/DisplayTool
-  image: '/assets/images/visualizer.png'
+  image: '/assets/images/projects/visualizer.png'
 
 - name: FangGang Brand Website
   description: A version of the FangGang website after rebrand.
   url: https://fang-gang-new-site.vercel.app/
   github: https://github.com/Yintii/FangGangNewSite
-  image: '/assets/images/fanggang.png'
+  image: '/assets/images/projects/fanggang.png'
 
 - name: Tug o' War
   description: This is a tug of war game built with React.js and TMI.js. TMI.js is a library made to interact with Twitch.tv chat, so that chatters can interact with the stream.
   url: https://tug-of-war-react.vercel.app/
   github: https://github.com/Yintii/tug-of-war-react
-  image: '/assets/images/tugowar.png'
+  image: '/assets/images/projects/tugowar.png'
 
 - name: Lil Degens
   description: Lil Degens was a NFT project I did the contract and mint page for. This was integrated with google cloud to retrieve more data from users to further customize their NFT.
   url: https://lil-degens-mint-page.vercel.app/
   github: https://github.com/Yintii/MintWithGenderSelect
   etherscan: https://etherscan.io/address/0x1a0FF5B6e1cAc6D58f8e8241d870E022B2fdB9D4
-  image: '/assets/images/lildegens.png'
+  image: '/assets/images/projects/lildegens.png'
 
 - name: Overly simple Form (WP plugin)
   description: I hate doing custom forms with pre-made plugins so this is my overly simple form plugin for wordpress.
   github: https://github.com/Yintii/Custom-Form-Plugin
-  image: '/assets/images/wmark.png'
+  image: '/assets/images/projects/wmark.png'
 
 
 - name: Meeting upload tool (WP plugin)
   description: A simple tool for the exclusive purpose of allowing general staff members enter in data pertaining to meetings that would otherwise require a developer to update. The plugin handles the database logic, and the rendering for the data. All the user has to do is enter in what is needed and upload the particular document.
   github: https://github.com/Yintii/custom_file_uploader
-  image: '/assets/images/wmark.png'
+  image: '/assets/images/projects/wmark.png'
 

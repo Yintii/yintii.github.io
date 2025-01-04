@@ -21,13 +21,11 @@
 title: Kele Heart 
 email: kele@keleheart.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Kele Heart is a full stack web developer based out of San Diego, CA.
-  Technologies include Wordpress LAMP, Ruby on Rails, React and React Native, Google Cloud, and other
-  miscellaneous tools and libraries to build full scale solutions. There is no task too tall for this developer!
-baseurl: "" # the subpath of your site, e.g. /blog
+  This is the personal portfolio website and blog of Kele Heart.
+  All work showcased herein is my intellectual property.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: yintii
-twitter_username: scratchinswamii
 linkedin_username: kele-heart
 
 # Build settings
@@ -38,6 +36,7 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

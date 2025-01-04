@@ -25,6 +25,29 @@ $teal:    #b8bb26 !default; // 142 green
 $cyan:    #83a598 !default; // 109 blue
 
 @import "bootstrap/bootstrap";
+@import "slick";
+@import "slick-theme";
+@import "grid";
+@import "slider";
+@import "book-grid";
+@import "front-page";
+
+html, body{
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden; 
+}
+
+header{
+  position: relative;
+  min-width:100vw;
+  background-image: url('../images/header-images/wave.svg');
+  background-size: cover;
+  height: 350px;
+  .navbar-brand, .nav-link{
+    color: white;
+  }
+}
 
 pre{
   background-color:black;
@@ -33,9 +56,18 @@ pre{
 }
 
 main.page-content{
-  margin: 5rem 0;
+  h1{
+    color:white;
+  }
+  margin: -15rem 0;
+  position:relative;
+  z-index: 5;
 }
 
+
+.post-list{ 
+  margin-top:10rem;
+}
 
 .card{
   width:45%;
@@ -96,6 +128,9 @@ main.page-content{
   }
 }
 
+footer{
+  margin-top: 15rem;
+}
 
 @media (max-width: 768px) {
   .footer-col{

@@ -1,0 +1,86 @@
+---
+layout: default 
+title: Home 
+permalink: /
+---
+<div class="container-fluid">
+  
+  <div class="row align-items-center">
+    <div class="col-sm-12 col-md-6">
+      <img id="avi" class="img-thumbnail" src="assets/images/header-images/prof-pic-1.jpeg" />
+    </div>
+    <div id='title-card' class="col-sm-12 col-md-6">
+      <h2>Kele Heart</h1>
+      <p>Full Stack Web Developer</p>
+      <p>Wordpress | Ruby on Rails | React</p>
+    </div>
+  </div>
+
+  <div class="row my-5 align-items-center">
+    <div id="tech-block" class="col-sm-12 col-md-6">
+      <h2>Technologies</h2>
+      <p>
+        Over the years I've become quite adept in many relevant and useful technologies. 
+        I've chosen the tools, libraries, and frameworks I believe are the most practical available.
+        My favorite is Ruby on Rails, because I love the Ruby language, and it's a beautifully comprehensive
+        framework for scaffolding MVPs. Wordpress is what most of the web runs on, so it's not to be 
+        disrepected or forgotten. Finally, TypeScript microservices architechture truly reigns supreme,
+        and I couldn't leave it out of my skillset.
+      </p>
+    </div>
+  
+    <div class="col-sm-12 col-md-6">
+      <div id="icon-grid">
+        {% for icon in site.data.icons %}
+          <img alt={{icon.alt}} src={{icon.src}} />
+        {% endfor %}
+      </div>      
+    </div>
+  </div>
+  
+  <div class="row my-5 p-5 text-center">
+    <h2>Work History</h2>
+    {% for job in site.data.jobs %}
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{job.title}}</h5>
+          <span>{{job.company}}</span>
+          <p class="card-text">{{job.description}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="row my-5 p-5 text-center">
+    <div class="col-sm-12">
+      <h2>Take a look at my work</h2>
+      <span>
+        <a href="https://github.com/yintii" target="_blank">Github</a>
+        <a href="/projects">Gallery</a>
+      </span>
+      <div class="slick-slider">
+        {% for project in site.data.projects %}
+          <div class="portfolio-item">
+            <span>{{ project.name }}</span>
+            <img src="{{project.image}}" />
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-5 p-5 text-center">
+    <div class="col-sm-12">
+      <h2>Recommended Reading</h2>
+      <div id="recommended-books">
+        {% for book in site.data.books %}
+          <div class="book">
+            <span>{{ book.name }}</span>
+            <img src="{{ book.image }}"/>
+          </div>
+        {% endfor %}        
+      </div>
+    </div>
+  </div> 
+
+</div>

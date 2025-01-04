@@ -1,0 +1,68 @@
+- name: Thinking Fast and Slow
+  image: '/assets/images/books/thinking-cover.jpg'
+
+- name: The Bitcoin Standard
+  image: '/assets/images/books/bitcoin-standard-cover.webp'
+
+- name: "America: the farewell tour"
+  image: '/assets/images/books/america-farewell-cover.jpg'
+
+- name: Learn Enough Ruby to be dangerous
+  image: '/assets/images/books/learn-ruby-cover.jpg'
+
+- name: The Ruby on Rails Tutorial
+  image: '/assets/images/books/rails-cover.jpg'
+
+- name: Factfulness
+  image: '/assets/images/books/factfullness-cover.jpg'
+
+- name: Buy-ology
+  image: '/assets/images/books/buyology-cover.jpg'
+
+- name: The Linux Command Line - A Complete Introduction
+  image: '/assets/images/books/lcl-cover.jpg'
+  
+- name: How to talk to anyone
+  image: '/assets/images/books/howtotalk-cover.jpg'
+
+- name: A General Theory of Love
+  image: 'assets/images/books/general-theory-cover.jpg'
+
+- name: Think Python
+  image: '/assets/images/books/think-python.jpg'
+
+- name: Undressing Bitcoin
+  image: '/assets/images/books/ub-cover.jpg'
+
+- name: The Lean Startup
+  image: '/assets/images/books/lean-cover.jpg'
+
+- name: The Art of War for Writers
+  image: '/assets/images/books/aow-cover.jpg'
+
+- name: Building a Story Brand
+  image: '/assets/images/books/bsb-cover.jpg'
+
+- name: Up & Going - YDKJS(1st edition)
+  image: '/assets/images/books/ug-ydkjs-cover.jpg' 
+
+- name: Scopes & Closures - YDKJS(1st edition)
+  image: '/assets/images/books/sc-ydkjs-cover.jpg' 
+
+- name: this & Object Prototypes - YDKJS(1st edition)
+  image: '/assets/images/books/to-ydkjs-cover.jpg' 
+
+- name: Types & Grammar - YDKJS(1st edition)
+  image: '/assets/images/books/tg-ydkjs-cover.jpg' 
+
+- name: Aysnc & Performance - YDKJS(1st edition)
+  image: '/assets/images/books/ap-ydkjs-cover.jpg' 
+
+- name: ES6 and Beyond - YDKJS(1st edition)
+  image: '/assets/images/books/es6-ydkjs-cover.jpg' 
+
+- name: Make money work for you
+  image: '/assets/images/books/mm-cover.jpg'
+
+- name: How to analyze people
+  image: '/assets/images/books/dp-cover.jpg'

@@ -1,0 +1,48 @@
+#recommended-books{
+  .book{
+    display:flex;
+    float:left;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    padding:15px;
+    background-color: rgba(150,150,150,0.1);
+    border: 1px solid #ccc;
+    span{
+      font-weight: bold;
+      padding:5px;
+    }
+  }
+}
+
+
+@media (min-width: 415px){ 
+  #recommended-books{ 
+    .book{
+      width: 50%;
+    }
+  }
+}
+@media (min-width: 992px){ 
+  #recommended-books{ 
+    .book{
+      width: 272px;
+    }
+  }
+}
+
+@media (min-width: 1200px){
+  #recommended-books{ 
+    .book{
+      width: 249px;
+    }
+  }
+}
+
+@media (min-width: 1400px){
+  #recommended-books{ 
+    .book{
+      width: 234px;
+    }
+  }
+}
